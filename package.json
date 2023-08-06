@@ -1,0 +1,39 @@
+{
+  "name": "@devoxa/mock-s3",
+  "description": "Mock S3 server for test environments, based on s3rver",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/devoxa/mock-s3"
+  },
+  "scripts": {
+    "start": "ts-node-dev --exit-child --respawn --rs src/index.ts",
+    "format": "prettier --ignore-path='.gitignore' --list-different --write .",
+    "format:check": "prettier --ignore-path='.gitignore' --check .",
+    "lint": "eslint --ignore-path='.gitignore' 'src/**/*.ts'",
+    "build": "rm -rf dist/ && tsc",
+    "preversion": "yarn build"
+  },
+  "eslintConfig": {
+    "extends": "@devoxa"
+  },
+  "prettier": "@devoxa/prettier-config",
+  "dependencies": {
+    "s3rver": "3.7.1"
+  },
+  "devDependencies": {
+    "@devoxa/eslint-config": "3.0.11",
+    "@devoxa/prettier-config": "2.0.2",
+    "@types/node": "18.17.1",
+    "@types/s3rver": "^3.7.0",
+    "eslint": "8.46.0",
+    "prettier": "3.0.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.1.6"
+  },
+  "volta": {
+    "node": "18.17.0"
+  }
+}
