@@ -181,10 +181,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.19.tgz#80c9b8a89d3648d9e6098f4a7184e03833fee3c5"
   integrity sha512-+pMhShR3Or5GR0/sp4Da7FnhVmTalWm81M6MkEldbwjETSaPalw138Z4KdpQaistvqQxLB7Cy4xwYdxpbSOs9Q==
 
-"@types/s3rver@3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@types/s3rver/-/s3rver-3.7.0.tgz#e7444d7473d99d1e731d017c70ec8c6a77be2a90"
-  integrity sha512-EoVqpsY0Bfr98l0SzQWn5ZoyAFVr26V/k7hTePOMrOmcMl96/z5RvhzQgQ/2K+GTGutHFmvMfnnMuDLoPG9BCQ==
+"@types/s3rver@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@types/s3rver/-/s3rver-3.7.1.tgz#7586f7784874dd57edab93e05ee208d2f5fe31bd"
+  integrity sha512-3y8rTuvCzWgFHYw9xoQ/9UsZgg6sbJjmPylUuFifhVVCEFywBrNzR/9HVMT3NeyKr+aRG89bIwdWviBLg5x2EQ==
   dependencies:
     "@types/node" "*"
 
