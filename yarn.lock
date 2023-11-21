@@ -183,10 +183,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/s3rver@3.7.3":
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/@types/s3rver/-/s3rver-3.7.3.tgz#62dd2047f671276e91382395656369676330eeb9"
-  integrity sha512-O2FuIEfS2QwaILXpSmq7yNtsVSTxHmsKmPaI9kaJQblKa12SYflxX0/7+qpl9BRmaLa3MH19o97B1qLJGWedKA==
+"@types/s3rver@3.7.4":
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@types/s3rver/-/s3rver-3.7.4.tgz#29950ee4a35980fe686a47ed723559a9051e6d94"
+  integrity sha512-CMCmdNszxS2FsIznWvBMVCl6fpvr5ueaFCaY0iSoH7Ud5maGcLghukpDvsXBnIcp92cv2HeVnVqI1p8yPcab9Q==
   dependencies:
     "@types/node" "*"
 
