@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@devoxa/eslint-config": "3.0.11",
-    "@devoxa/prettier-config": "2.0.2",
+    "@devoxa/prettier-config": "2.0.3",
     "@types/node": "20.9.5",
     "@types/s3rver": "3.7.4",
     "eslint": "8.57.0",
