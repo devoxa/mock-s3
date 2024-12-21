@@ -5,7 +5,7 @@
 
 <!-- Description -->
 <h4 align="center">
-  Mock S3 server for test environments, based on <a href="https://github.com/jamhall/s3rver">s3rver</a>.
+  Mock S3 server for test environments, based on <a href="https://github.com/jamhall/s3rver">s3rver</a>
 </h4>
 
 <!-- Badges -->
